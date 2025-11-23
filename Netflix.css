@@ -1,0 +1,52 @@
+ .header .navbar-brand {
+    font-weight: bold;
+    font-size: 24px;
+    color: #E50914 !important; /* Netflix red color */
+}
+.header .navbar-item .dropdown::marker{
+    unicode-bidi: normal !important;
+    font-variant-numeric: normal !important;
+    text-transform: none !important;
+    text-indent: none !important;
+    text-align: none !important;
+    text-align-last: none !important
+}
+.header a.navbar-item .dropdown-toggle {
+    width: 50px !important;
+    
+}
+.header a.navbar-item .dropdown-toggle img {
+    width: 100% !important;
+    height: 100% !important;
+}
+ .dropdown-item img {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    }
+.header h5{
+    font-size: medium !important;
+}
+.hero-banner {
+    height: 90vh;
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTciedxlXMSWq2kKfvSePh_B4bQ3pttKA5edg&s');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    color: white;
+}
+
+.hero-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to right, rgba(0,0,0,0.7), rgba(0,0,0,0.1));
+}
+
+.hero-content {
+    position: absolute;
+    bottom: 20%;
+    left: 5%;
+}
